@@ -1,0 +1,81 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Kalou Cabrera Castillos": {
+      "orcid": "0009-0007-3501-5885"
+    },
+    "Simon Ladouce": {
+      "orcid": "0000-0001-6760-6240"
+    },
+    "Ludovic Darmet": {
+      "orcid": "0000-0001-5445-9763"
+    },
+    "Frédéric Dehais": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.neuroimage.2023.120446",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000345",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000345",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "CastillosBurstVEP40",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "148.7 MB (13 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises electroencephalographic recordings from 12 healthy participants performing a reactive brain-computer interface task using code-modulated visual evoked potentials (c-VEP). The study introduces an innovative 'Burst c-VEP' paradigm employing short bursts of aperiodic visual flashes at 2-4 Hz, designed to optimize classification performance while reducing calibration requirements and improving visual comfort. Data were collected using a 32-channel BrainProducts LiveAmp system at 500 Hz sampling rate across a factorial design manipulating stimulus pattern (burst vs. m-sequence) and amplitude (100% vs. 40% depth modulation).",
+  "methods_description": "EEG data were acquired from 12 healthy participants (mean age 30.6±7.1 years) using a 32-channel BrainProducts LiveAmp system with active Acticap electrodes at a sampling rate of 500 Hz. The experimental protocol employed a factorial design with four conditions: burst or m-sequence codes crossed with 100% or 40% amplitude depth modulations. Participants attended to sequentially cued targets presented as aperiodic visual flashes on a Dell P2419HC display (1920×1080 pixels, 60 Hz refresh rate). Each participant completed 15 blocks of 4 trials per condition (240 total trials). Burst codes consisted of 50ms flashes at 2-4 Hz with 200ms minimum inter-burst intervals, while m-sequences used pseudo-random binary sequences at ~10 Hz. EEG signals were processed using convolutional neural networks for bitwise decoding.",
+  "keywords": [
+    {
+      "term": "code-modulated visual evoked potentials"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "convolutional neural networks"
+    },
+    {
+      "term": "visual stimulation"
+    },
+    {
+      "term": "reactive BCI"
+    },
+    {
+      "term": "burst coding"
+    }
+  ],
+  "source_hash": "76b702b64861b10c2c38c2df0e4981f832eaa7ceeabeeea7ba8b8fafca8549c5"
+}
