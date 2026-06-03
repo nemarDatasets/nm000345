@@ -1,44 +1,48 @@
 {
-	"Name": "CastillosBurstVEP40",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-4.0",
-	"Authors": [
-		"Kalou Cabrera Castillos",
-		"Simon Ladouce",
-		"Ludovic Darmet",
-		"Fr\u00e9d\u00e9ric Dehais"
-	],
-	"EthicsApprovals": [
-		"University of Toulouse ethics committee (CER approval number 2020-334)",
-		"Declaration of Helsinki"
-	],
-	"ReferencesAndLinks": [
-		"https://zenodo.org/record/8255618",
-		"10.1016/j.neuroimage.2023.120446"
-	],
-	"DatasetDOI": "doi:10.1016/j.neuroimage.2023.120446",
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "https://doi.org/10.1016/j.neuroimage.2023.120446",
-			"URL": "https://zenodo.org/record/8255618"
-		}
-	],
-	"Keywords": [
-		"Code-VEP",
-		"Reactive BCI",
-		"CNN",
-		"Amplitude depth reduction",
-		"Visual comfort"
-	],
-	"PublicationYear": 2023
+  "Name": "CastillosBurstVEP40",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Kalou Cabrera Castillos",
+    "Simon Ladouce",
+    "Ludovic Darmet",
+    "Frédéric Dehais"
+  ],
+  "EthicsApprovals": [
+    "University of Toulouse ethics committee (CER approval number 2020-334)",
+    "Declaration of Helsinki"
+  ],
+  "ReferencesAndLinks": [
+    "https://zenodo.org/record/8255618",
+    "10.1016/j.neuroimage.2023.120446"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000345",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "https://doi.org/10.1016/j.neuroimage.2023.120446",
+      "URL": "https://zenodo.org/record/8255618"
+    },
+    {
+      "DOI": "doi:10.1016/j.neuroimage.2023.120446"
+    }
+  ],
+  "Keywords": [
+    "Code-VEP",
+    "Reactive BCI",
+    "CNN",
+    "Amplitude depth reduction",
+    "Visual comfort"
+  ],
+  "PublicationYear": 2023,
+  "Version": "1.0.0"
 }
