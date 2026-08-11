@@ -1,0 +1,134 @@
+{
+ "dataset": "nm000345",
+ "moabb_class": "CastillosBurstVEP40",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.CastillosBurstVEP40.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-4class-vep-data/zenodo/8255618/4Class-CVEP",
+ "license": "CC-BY-4.0",
+ "doi": "https://doi.org/10.1016/j.neuroimage.2023.120446",
+ "n_files": 24,
+ "total_bytes": 202678904,
+ "files": [
+  {
+   "file": "P1/P1_burst40.fdt",
+   "bytes": 16929024,
+   "sha256": "dd30ca9c3db964d92a9a82dd23dcd0ddbd83708444853e4d8655a10a68a6773e"
+  },
+  {
+   "file": "P1/P1_burst40.set",
+   "bytes": 718136,
+   "sha256": "3269fbadbdd00f2be42a2edf087841f0cf52f19b03197eb1ab1b33a62525598d"
+  },
+  {
+   "file": "P10/P10_burst40.fdt",
+   "bytes": 14913920,
+   "sha256": "8d4a50d3b6c8a283e291f0dc24fae196c45bf209c3f073a2e848231fe3b8ffe9"
+  },
+  {
+   "file": "P10/P10_burst40.set",
+   "bytes": 659968,
+   "sha256": "05ad07db9f13af78b675cb703603930d0b0efee41e9c41f08baaccef7b045705"
+  },
+  {
+   "file": "P11/P11_burst40.fdt",
+   "bytes": 16609664,
+   "sha256": "114a1ab932c5c37a9d05178ae532d1c3442a04d19cd32b176ebf15f58a1a7455"
+  },
+  {
+   "file": "P11/P11_burst40.set",
+   "bytes": 707896,
+   "sha256": "2d5b15f562ec25daf4bbeb524c8b4449dc88179ce9c5422dead106ecd3b4f492"
+  },
+  {
+   "file": "P12/P12_burst40.fdt",
+   "bytes": 16225024,
+   "sha256": "3163fdd4c48b6b2b150fc0ed533a84be758179d0f9349112679387b2248a61e1"
+  },
+  {
+   "file": "P12/P12_burst40.set",
+   "bytes": 695584,
+   "sha256": "7135e9af1c8bdf2016d40aea6962061d14646bc8e7a6d0ce01248f11ebdc6561"
+  },
+  {
+   "file": "P2/P2_burst40.fdt",
+   "bytes": 14599680,
+   "sha256": "3014cd806ee8e81fa2c427a704afcd9de67ef02e98810416272ab8d6280f5696"
+  },
+  {
+   "file": "P2/P2_burst40.set",
+   "bytes": 654264,
+   "sha256": "dba16c9302bb91cb69d926725dc4fc28c1d029283ccfa2cfb369275cb25ba787"
+  },
+  {
+   "file": "P3/P3_burst40.fdt",
+   "bytes": 15333632,
+   "sha256": "55336902097e1a1acf019fc16c20b49b55259423c1caf6b042073cba20261222"
+  },
+  {
+   "file": "P3/P3_burst40.set",
+   "bytes": 677568,
+   "sha256": "a505f1291f92ae1120e56a412919d6d3f46f61b7c0129e2b53f5b3e45094e322"
+  },
+  {
+   "file": "P4/P4_burst40.fdt",
+   "bytes": 16001024,
+   "sha256": "494324708ca2c75ce579b95d1939b2efd88df21c839286696a6ada113adee3ca"
+  },
+  {
+   "file": "P4/P4_burst40.set",
+   "bytes": 694384,
+   "sha256": "f560c02c9705aaf847edbb5c63014fea8b8ea4937f55fbd76e76113ec6fbb3e8"
+  },
+  {
+   "file": "P5/P5_burst40.fdt",
+   "bytes": 15553152,
+   "sha256": "b7a868f12e6ded682044965a41bb6f55764e7c26d89957ccfc9f3c89562699a3"
+  },
+  {
+   "file": "P5/P5_burst40.set",
+   "bytes": 674176,
+   "sha256": "8a12b9281b376d455ec3d3cad833c5e0292a1f4dee59b84a23ad9a9f27b7560d"
+  },
+  {
+   "file": "P6/P6_burst40.fdt",
+   "bytes": 15457280,
+   "sha256": "80b231df0fe7e4e0f4be1b4a220a8c0ae813a98b569201de2c2a47d7d95c79cf"
+  },
+  {
+   "file": "P6/P6_burst40.set",
+   "bytes": 671272,
+   "sha256": "89a67be57e8cd7eec482fb6e5f4c2e749355b25a8a4d2f800230f99b2ff342c3"
+  },
+  {
+   "file": "P7/P7_burst40.fdt",
+   "bytes": 16321536,
+   "sha256": "9b412e034bd0122a0aed0badba0154fd46714d02fe956797fd7f152016a7a772"
+  },
+  {
+   "file": "P7/P7_burst40.set",
+   "bytes": 698560,
+   "sha256": "7fcaf24834dbb19b2bd976d6bace3720dacd3f049f3d4e5662ecc0d27edb8369"
+  },
+  {
+   "file": "P8/P8_burst40.fdt",
+   "bytes": 17697024,
+   "sha256": "08fd2ffff3cb5cf57423b38a21e683690695bcaa7472e8b8e682cfdb0ed72274"
+  },
+  {
+   "file": "P8/P8_burst40.set",
+   "bytes": 749248,
+   "sha256": "9ac463d40542d7a0b40fcccfa0b70ed6b9f6d8cea8ed035b096ea2229525b618"
+  },
+  {
+   "file": "P9/P9_burst40.fdt",
+   "bytes": 18657152,
+   "sha256": "4f5fb0d2875ecf9b695363b4c2465f83d91fa119a383d9c357820587460dfbd6"
+  },
+  {
+   "file": "P9/P9_burst40.set",
+   "bytes": 779736,
+   "sha256": "c8e90bee3d2ed7d33d488d5f652edb03b6954a50e590b4627f217f081eac2dd4"
+  }
+ ]
+}
