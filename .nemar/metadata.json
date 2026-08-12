@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "CastillosBurstVEP40",
+  "description": "This dataset comprises EEG recordings from a code-modulated Visual Evoked Potential (c-VEP) brain-computer interface study introducing an innovative 'Burst c-VEP' paradigm. Data were collected from 12 healthy participants using 32-channel EEG at 500 Hz during a reactive BCI task with visual stimuli presented at 2-4 Hz. The study investigates the effects of stimulus pattern (burst vs. m-sequence codes) and amplitude depth (100% vs. 40%) on classification performance and user experience, demonstrating that burst c-VEP achieves high accuracy (90.5-95.6%) with reduced calibration requirements and improved visual comfort.",
+  "methods_description": "EEG data acquired from 12 healthy participants (mean age 30.6±7.1 years) using a 32-channel BrainProducts LiveAmp system at 500 Hz sampling rate with standard 10-20 electrode montage (reference: FCz, ground: FPz). Factorial experimental design manipulating stimulus pattern (burst codes: 50ms flashes at 2-4 Hz; m-sequences: ~10 Hz pseudo-random) and amplitude depth (100% or 40%). Each participant completed 15 blocks of 4 trials per condition (240 total trials). Stimuli presented on Dell P2419HC display (1920×1080, 60 Hz). Online 50 Hz line noise filtering applied. Classification performed using convolutional neural networks with EEG2Code bitwise decoding.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Kalou Cabrera Castillos": {
       "orcid": "0009-0007-3501-5885"
@@ -13,44 +18,6 @@
     },
     "Frédéric Dehais": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.1016/j.neuroimage.2023.120446",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000345",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000345",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "title": "CastillosBurstVEP40",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "148.7 MB (13 files)"
-  ],
-  "formats": [
-    ".bdf",
-    ".json",
-    ".md",
-    ".tsv",
-    ".yaml",
-    ".yml"
-  ],
-  "description": "This dataset comprises electroencephalographic recordings from 12 healthy participants performing a reactive brain-computer interface task using code-modulated visual evoked potentials (c-VEP). The study introduces an innovative 'Burst c-VEP' paradigm employing short bursts of aperiodic visual flashes at 2-4 Hz, designed to optimize classification performance while reducing calibration requirements and improving visual comfort. Data were collected using a 32-channel BrainProducts LiveAmp system at 500 Hz sampling rate across a factorial design manipulating stimulus pattern (burst vs. m-sequence) and amplitude (100% vs. 40% depth modulation).",
-  "methods_description": "EEG data were acquired from 12 healthy participants (mean age 30.6±7.1 years) using a 32-channel BrainProducts LiveAmp system with active Acticap electrodes at a sampling rate of 500 Hz. The experimental protocol employed a factorial design with four conditions: burst or m-sequence codes crossed with 100% or 40% amplitude depth modulations. Participants attended to sequentially cued targets presented as aperiodic visual flashes on a Dell P2419HC display (1920×1080 pixels, 60 Hz refresh rate). Each participant completed 15 blocks of 4 trials per condition (240 total trials). Burst codes consisted of 50ms flashes at 2-4 Hz with 200ms minimum inter-burst intervals, while m-sequences used pseudo-random binary sequences at ~10 Hz. EEG signals were processed using convolutional neural networks for bitwise decoding.",
   "keywords": [
     {
       "term": "code-modulated visual evoked potentials"
@@ -77,5 +44,40 @@
       "term": "burst coding"
     }
   ],
-  "source_hash": "76b702b64861b10c2c38c2df0e4981f832eaa7ceeabeeea7ba8b8fafca8549c5"
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.neuroimage.2023.120446",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000345",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000345",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "351.3 MB (37 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "source_hash": "70e1a1389490579d3eb48a8a71eeb46a66269a226eec4e0e8d6237df5d27ba7c"
 }
