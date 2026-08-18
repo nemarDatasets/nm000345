@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "CastillosBurstVEP40",
-  "description": "This dataset comprises EEG recordings from a code-modulated Visual Evoked Potential (c-VEP) brain-computer interface study introducing an innovative 'Burst c-VEP' paradigm. Data were collected from 12 healthy participants using 32-channel EEG at 500 Hz during a reactive BCI task with visual stimuli presented at 2-4 Hz. The study investigates the effects of stimulus pattern (burst vs. m-sequence codes) and amplitude depth (100% vs. 40%) on classification performance and user experience, demonstrating that burst c-VEP achieves high accuracy (90.5-95.6%) with reduced calibration requirements and improved visual comfort.",
-  "methods_description": "EEG data acquired from 12 healthy participants (mean age 30.6±7.1 years) using a 32-channel BrainProducts LiveAmp system at 500 Hz sampling rate with standard 10-20 electrode montage (reference: FCz, ground: FPz). Factorial experimental design manipulating stimulus pattern (burst codes: 50ms flashes at 2-4 Hz; m-sequences: ~10 Hz pseudo-random) and amplitude depth (100% or 40%). Each participant completed 15 blocks of 4 trials per condition (240 total trials). Stimuli presented on Dell P2419HC display (1920×1080, 60 Hz). Online 50 Hz line noise filtering applied. Classification performed using convolutional neural networks with EEG2Code bitwise decoding.",
+  "description": "This dataset comprises electroencephalographic recordings from 12 healthy participants performing a reactive brain-computer interface task based on code-modulated visual evoked potentials (c-VEP). The study introduces an innovative 'Burst c-VEP' paradigm using short bursts of aperiodic visual flashes at 2-4 Hz, systematically varying stimulus amplitude (100% vs. 40%) to optimize classification performance while improving visual comfort. Data were collected using a 32-channel BrainProducts LiveAmp system at 500 Hz sampling rate and analyzed with convolutional neural networks for bitwise decoding.",
+  "methods_description": "Factorial experimental design with 12 healthy participants (mean age 30.6±7.1 years). Four conditions manipulated: burst vs. m-sequence codes × 100% vs. 40% amplitude depth modulation. EEG recorded at 500 Hz using 32-channel BrainProducts LiveAmp with active Acticap electrodes, referenced to FCz. Burst codes consisted of 50ms visual flashes at 2-4 Hz with 200ms minimum inter-burst intervals; m-sequences used pseudo-random binary sequences at ~10 Hz. Each participant completed 15 blocks of 4 trials (60 trials per class, 240 total trials). Trial structure: 700ms inter-trial interval, 500ms cue, 2200ms stimulus presentation. Analysis employed CNN-based bitwise decoding on occipital/parietal electrodes.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -79,5 +79,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "70e1a1389490579d3eb48a8a71eeb46a66269a226eec4e0e8d6237df5d27ba7c"
+  "source_hash": "551fd00d51b776780704501b75c02551f974fd646c8465c1f9a4d4792e6faa5a"
 }
