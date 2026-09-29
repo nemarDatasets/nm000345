@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "CastillosBurstVEP40",
-  "description": "This dataset comprises electroencephalographic recordings from 12 healthy participants performing a reactive brain-computer interface task based on code-modulated visual evoked potentials (c-VEP). The study introduces an innovative 'Burst c-VEP' paradigm using short bursts of aperiodic visual flashes at 2-4 Hz, systematically varying stimulus amplitude (100% vs. 40%) to optimize classification performance while improving visual comfort. Data were collected using a 32-channel BrainProducts LiveAmp system at 500 Hz sampling rate and analyzed with convolutional neural networks for bitwise decoding.",
-  "methods_description": "Factorial experimental design with 12 healthy participants (mean age 30.6±7.1 years). Four conditions manipulated: burst vs. m-sequence codes × 100% vs. 40% amplitude depth modulation. EEG recorded at 500 Hz using 32-channel BrainProducts LiveAmp with active Acticap electrodes, referenced to FCz. Burst codes consisted of 50ms visual flashes at 2-4 Hz with 200ms minimum inter-burst intervals; m-sequences used pseudo-random binary sequences at ~10 Hz. Each participant completed 15 blocks of 4 trials (60 trials per class, 240 total trials). Trial structure: 700ms inter-trial interval, 500ms cue, 2200ms stimulus presentation. Analysis employed CNN-based bitwise decoding on occipital/parietal electrodes.",
+  "description": "EEG recordings from 12 healthy participants performing an offline 4-class code-modulated visual evoked potential (c-VEP) reactive BCI task. The study introduces 'Burst c-VEP', which uses short bursts of aperiodic flashes at 2-4 Hz. It compares burst and m-sequence codes at 100% and 40% amplitude depth, and evaluates CNN-based bitwise decoding, calibration time and visual comfort. This BIDS derivative holds the 40% amplitude burst condition.",
+  "methods_description": "32-channel EEG was recorded at 500 Hz with a BrainProducts LiveAmp and active Acticap electrodes (reference FCz, ground FPz). Participants attended to cued targets in a factorial design of code type (burst or m-sequence) by amplitude depth (100% or 40%). Each participant completed 15 blocks of 4 trials per condition, with a 2.2 s stimulation period per trial. Decoding used an improved EEG2Code CNN architecture.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -20,28 +20,29 @@
   },
   "keywords": [
     {
-      "term": "code-modulated visual evoked potentials"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "convolutional neural networks"
-    },
-    {
-      "term": "visual stimulation"
+      "term": "code-VEP"
     },
     {
       "term": "reactive BCI"
     },
     {
-      "term": "burst coding"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Evoked Potentials, Visual",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
+    },
+    {
+      "term": "convolutional neural network"
+    },
+    {
+      "term": "visual comfort"
     }
   ],
   "related_identifiers": [
@@ -59,6 +60,21 @@
       "identifier": "https://nemar.org/dataset/nm000345",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.8255618",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "resource_type_general": "Dataset",
@@ -67,7 +83,7 @@
     "eeg"
   ],
   "sizes": [
-    "351.3 MB (37 files)"
+    "335 MB (37 files)"
   ],
   "formats": [
     ".bdf",
