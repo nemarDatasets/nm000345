@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
-  "title": "CastillosBurstVEP40",
-  "description": "EEG recordings from 12 healthy participants performing an offline 4-class code-modulated visual evoked potential (c-VEP) reactive BCI task. The study introduces 'Burst c-VEP', which uses short bursts of aperiodic flashes at 2-4 Hz. It compares burst and m-sequence codes at 100% and 40% amplitude depth, and evaluates CNN-based bitwise decoding, calibration time and visual comfort. This BIDS derivative holds the 40% amplitude burst condition.",
-  "methods_description": "32-channel EEG was recorded at 500 Hz with a BrainProducts LiveAmp and active Acticap electrodes (reference FCz, ground FPz). Participants attended to cued targets in a factorial design of code type (burst or m-sequence) by amplitude depth (100% or 40%). Each participant completed 15 blocks of 4 trials per condition, with a 2.2 s stimulation period per trial. Decoding used an improved EEG2Code CNN architecture.",
+  "pipeline_stage": "validated",
+  "title": "Castillos et al. 2023, Burst c-VEP, 40% amplitude depth: Burst c-VEP Based BCI: Optimizing stimulus design for enhanced classification with minimal calibration data and improved user experience",
+  "description": "EEG recordings from 12 healthy participants performing an offline 4-class reactive BCI task with burst code-modulated visual evoked potentials (c-VEP). This subset contains the burst c-VEP condition at 40% amplitude depth, which lowers stimulus saliency to improve visual comfort. The dataset supports evaluating CNN-based bitwise decoding with minimal calibration data.",
+  "methods_description": "32-channel EEG was recorded at 500 Hz with a BrainProducts LiveAmp 32 and active Acticap electrodes (reference FCz, ground FPz). This subset contains only the burst c-VEP condition at 40% amplitude depth. The original study used a factorial design crossing code type (burst vs m-sequence) with amplitude depth (100% vs 40%), but the other conditions are not included here. Participants attended to cued targets showing aperiodic visual flashes at 2-4 flashes per second on a 60 Hz screen. Each subject completed 15 blocks of 4 trials (60 trials) in this condition.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -23,20 +23,16 @@
       "term": "EEG"
     },
     {
-      "term": "code-VEP"
-    },
-    {
-      "term": "reactive BCI"
+      "term": "code-modulated visual evoked potentials"
     },
     {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "Evoked Potentials, Visual",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
+      "term": "reactive BCI"
     },
     {
       "term": "convolutional neural network"
@@ -95,5 +91,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "551fd00d51b776780704501b75c02551f974fd646c8465c1f9a4d4792e6faa5a"
+  "source_hash": "471a62670a17419ed08fe4bbd5474597f6cf8d93570f2baf144bd9bfbdae834e"
 }
