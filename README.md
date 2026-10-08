@@ -1,7 +1,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000345-blue)](https://doi.org/10.82901/nemar.nm000345)
 
-CastillosBurstVEP40
-===================
+Castillos et al. 2023, Burst c-VEP, 40% amplitude depth: Burst c-VEP Based BCI: Optimizing stimulus design for enhanced classification with minimal calibration data and improved user experience
+=================================================================================================================================================================================================
 
 c-VEP and Burst-VEP dataset from Castillos et al. (2023)
 
